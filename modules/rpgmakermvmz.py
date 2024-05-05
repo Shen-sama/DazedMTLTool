@@ -57,7 +57,7 @@ POSITION = 0
 LEAVE = False
 
 # Dialogue / Scroll
-CODE401 = False
+CODE401 = True
 CODE405 = False
 CODE408 = False
 
@@ -2030,7 +2030,8 @@ def batchList(input_list, batch_size):
 
 def createContext(fullPromptFlag, subbedT):
     characters = 'Game Characters:\n\
-リシア (Riccia) - Female\n\
+リシア (Licia) - Female\n\
+リーシャ (Lecia) - Female\n\
 ロゼッタ (Rosetta) - Female\n\
 カノン (Kanon) - Female\n\
 ベルティーナ (Bertina) - Female\n\
