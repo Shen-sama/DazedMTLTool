@@ -2030,10 +2030,10 @@ def batchList(input_list, batch_size):
 
 def createContext(fullPromptFlag, subbedT):
     characters = 'Game Characters:\n\
-セリカ (Celica) - Female\n\
-レティシア・ル・ブラン・ド・ラ・ルミエール (Leticia Le Blanc De La Lumière) - Female\n\
-レオン (Leon) - Male\n\
-ラース (Lars) - Male\n\
+リシア (Riccia) - Female\n\
+ロゼッタ (Rosetta) - Female\n\
+カノン (Kanon) - Female\n\
+ベルティーナ (Bertina) - Female\n\
 '
     
     system = PROMPT + VOCAB if fullPromptFlag else \
